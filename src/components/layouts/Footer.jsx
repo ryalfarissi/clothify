@@ -12,10 +12,10 @@ const Footer = () => {
                 <h3 className="font-semibold text-xl text-white mb-5">Writer Category</h3>
                 <ul className="text-slate-300">
                     <li>
-                        <a href="#" className="inline-block text-base hover:text-primary-kalia mb-2">KopiKami Website</a>
+                        <a href="#" className="inline-block text-base hover:text-primary-kalia mb-2">Official Website</a>
                     </li>
                     <li>
-                        <a href="#" className="inline-block text-base hover:text-primary-kalia mb-2">Vendors</a>
+                        <a href="#" className="inline-block text-base hover:text-primary-kalia mb-2">Partners</a>
                     </li>
                     <li>
                         <a href="#" className="inline-block text-base hover:text-primary-kalia mb-2">CEO & Founder</a>
@@ -78,8 +78,11 @@ const Footer = () => {
             </div>
             <p className="font-medium text-sm text-slate-500 text-center">Made by <span
                     className="hover:text-primary-kalia">Amazing People</span>. With <span
-                    className="hover:text-[#0EA5E9] transition duration-300"><a href="https://tailwindcss.com/">Tailwind
-                        CSS</a></span></p>
+                    className="">
+                        <a href="https://tailwindcss.com/" className="hover:text-[#0EA5E9] transition duration-300">Tailwind
+                        CSS  </a>&
+                        <a href="https://react.dev/" className="hover:text-[#0EA5E9] transition duration-300"> ReactJS</a>
+                        </span></p>
         </div>
     
 </footer>

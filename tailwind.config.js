@@ -27,7 +27,7 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
-        "primary-kalia": "#0c68ab",
+        "primary-kalia": "#D00000",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
@@ -41,5 +41,5 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
