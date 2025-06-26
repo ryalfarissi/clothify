@@ -1,27 +1,30 @@
+// src/pages/public/HomePage.jsx
+
 import { Hero, About, Services, Projects, News, Contacts, PopularProducts } from '../../components/sections';
 
 const HomePage = () => {
     return (
         <>
-            <section className='xl:padding-l padding-b'>
+            {/* The Hero component itself likely contains the "home" id, but if not, wrap it */}
+            <section id="home" className='xl:padding-l padding-b'>
                 <Hero />
             </section>
-            <section className='padding'>
+            <section id="about" className='padding'>
                 <About />
             </section>
-            <section className='padding'>
+            <section id="services" className='padding'>
                 <Services />
             </section>
-            <section className='padding'>
+            <section id="products" className='padding'> 
                 <PopularProducts />
             </section>
-            <section className='padding bg-gray-300'>
+            <section id="projects" className='padding bg-gray-300'>
                 <Projects />
             </section>
-            <section className='padding'>
+            <section id="news" className='padding'>
                 <News />
             </section>
-            <section className='padding'>
+            <section id="contacts" className='padding'>
                 <Contacts />
             </section>
         </>

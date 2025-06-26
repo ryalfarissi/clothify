@@ -27,7 +27,7 @@ const ProtectedAdminRoutes = () => {
 
 const App = () => (
   <Router>
-    <main className="relative selection:bg-primary-kalia selection:text-white">
+    <div className="selection:bg-primary-kalia selection:text-white">
       <Suspense
         fallback={
           <div className="flex justify-center items-center min-h-screen bg-gray-100">
@@ -55,7 +55,7 @@ const App = () => (
           </Route>
         </Routes>
       </Suspense>
-    </main>
+    </div>
   </Router>
 );
 
